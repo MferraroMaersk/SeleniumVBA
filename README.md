@@ -22,6 +22,12 @@ A comprehensive Selenium wrapper for browser automation developed for MS Office 
 
 **SeleniumVBA will function right out-of-the-box**. Just download/install any one of the provided [SeleniumVBA solutions](https://github.com/GCuser99/SeleniumVBA/tree/main/dist) and then run one of the subs in the "test" Standard modules. If the Selenium WebDriver does not exist, or is out-of-date, SeleniumVBA will detect this automatically and download the appropriate driver to a [configurable location](https://github.com/GCuser99/SeleniumVBA/wiki#advanced-customization) on your system.
 
+### Excel starter template
+
+Need a clean workbook to start a new project? Grab the self-contained files in [`templates/ExcelTemplate`](templates/ExcelTemplate). The folder includes exported `.bas`/`.cls` files ready to drop into an existing project.
+
+Download the folder, import the modules into your workbook, enable the required references (Scripting Runtime, XML v6.0, HTML Object Library, and Selenium Type Library if you're using the add-in), and you're ready to automate.
+
 Driver updates can also be programmatically invoked via the [WebDriverManager class](https://github.com/GCuser99/SeleniumVBA/wiki/Object-Model-Overview#webdrivermanager).
 
 The [twinBASIC](https://twinbasic.com/preview.html) ActiveX DLL solution requires no dependencies (such as .Net Framework). To try it, download and run the installer in the [dist folder](https://github.com/GCuser99/SeleniumVBA/tree/main/dist).
